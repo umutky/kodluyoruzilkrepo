@@ -1,6 +1,7 @@
 # Kodluyoruz Ilk Repo
 Bu repo Kodluyoruz GIT Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
 
+![kodluyoruzilkrepo](https://user-images.githubusercontent.com/117311043/223372655-92b725f2-6162-4d57-b22c-27fd646026c1.png)
 
 
 # Installation
