@@ -56,3 +56,25 @@ Eğer modelimize aldığımız değişkenleri sayısı bir kaç tane ise muhteme
 
 ### Sonuç olarak
 Bir makine öğrenmesi modeli kurarken her zmana için overfitting ve underfitting durumlarını algoritmanın her aşamasında düşünmemiz gerekiyor. Yaşanabilecek bu sıkıntıları bazen veri hazırlığında bazen de model parametre optimizasyonunda çözebiliriz. Ancak her zaman train veri setindeki doğruluk oranının test veri setinden yüksek olması durumu overfitting olduğuna işaret etmeyebilir.
+
+# Model Performansını Değerlendirmek
+Regresyonda bağımlı X değişkenlerini alarak bağımsız Y değişkenini tahmin etmeye çalışırız. Tahmin sonucu elde ettiğimiz sonuçlar genelde ya tam olmaz ya da yanlış olur. Burada asıl sormamız gereken soru ne kadar yanlış olduğu. Diğer bir deyişle, asıl yapmamız gereken gerçek değerler ve tahmin edilen değerler arasındaki uzaklığı bulmak. Bu yazıda oluşturduğunuz regresyon modelini değerlendirmek için kullanabileceğiniz metriklerden bahsedeceğim. Bu metrikler:
+- R Kare / Düzeltilmiş R Kare
+- Ortalama Kare Hatası (Mean Squared Error (MSE)) / Kök Ortalama Kare Hatası (Root Mean Squared Error (RMSE))
+    - **root mean squared logarithmic error:** https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
+
+        * Outlier'ları daha iyi normalize eder(RMSE göre).
+        * Under estimation'ı cezalandırır.
+        * Relative error verir.
+
+- Ortalama Mutlak Hata (Mean Absolute Error (MAE))
+
+# Decision Tree Mantık
+
+![DecisionTree](https://www.datasciencearth.com/wp-content/uploads/2020/03/Capture.png)
+https://www.datasciencearth.com/python-uygulamasi-ile-karar-agaclari/
+
+# R square
+Modelin performansını gösteren bir metriktir.
+
+# Sklearn
