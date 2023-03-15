@@ -88,6 +88,7 @@ Missing value bilgisini kaybetmemek için bunları örneğin, Salary_NA adında 
 
 Missing Value'lara train'de atadığım değer örneğin o train'in ilgili sütununun median'ını atadım. Bu median değeri artık modelim için missing i anlatıyor, validationda da missing varsa yine aynı değeri atamamız lazım.
 
+# Bootstrap
 
 
 
