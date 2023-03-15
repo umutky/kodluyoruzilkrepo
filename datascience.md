@@ -78,3 +78,24 @@ https://www.datasciencearth.com/python-uygulamasi-ile-karar-agaclari/
 Modelin performansını gösteren bir metriktir.
 
 # Sklearn
+
+# Modelleme öncesi verinin hazırlanması (Preprocessing)
+
+# Missing Value
+Missing değerler bazen bize bir şeyleri ifade ediyor olabilir. Veri setini incelemeden, missing değerlerin nerelerde nasıl olduğu hakkında yorum yapıp bilgi çıkarmadan onları doğrudan silmek ya da değiştirmek yanlıştır.
+
+Missing value bilgisini kaybetmemek için bunları örneğin, Salary_NA adında bir column'a True False şeklinde atamalarla koyabilirim. Bunu yaptığım zaman kıyaslama yapabiliyor olacağım.
+
+Missing Value'lara train'de atadığım değer örneğin o train'in ilgili sütununun median'ını atadım. Bu median değeri artık modelim için missing i anlatıyor, validationda da missing varsa yine aynı değeri atamamız lazım.
+
+
+
+
+
+
+
+
+
+
+
+
