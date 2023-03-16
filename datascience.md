@@ -91,7 +91,19 @@ Missing Value'lara train'de atadığım değer örneğin o train'in ilgili sütu
 # Bootstrap
 
 
+# Hyperparameters
+Hiperparametreler nelerdir ? 
+Modeli eğitirken veriden çıkardığımız değil, kendi kendimize ayarladığımız parametrelere denir.
 
+# Subsample
+Daha önce de dediğimi gibi en iyi modeli bulmak diye bir şey pek mümkün değil. Fakat optimuma yaklaşmak için farklı model çeşitlerini, farklı hiperparametre değerleriyl deneriz. Fakat bunun gerçek hayatta pek mümkün olmadığı yerler bulunmakta. Örneğin  1milyon veri içeren bir veri setinde bir modeli kurmak 2-3 saatimizi alıyor olabilir. Bunu 10 farklı model kurarak denesek yaklaşık 25 saatimizi alacak. İşte zamandan tasarruf etmek için veri setimizi doğru şekilde ifade edebilen sample alma işlemine **subsample** denir.
+
+Böylelikle aldığımız subsample'ları bir çok modelleme tekniğiyle deniyip optimuma en yakın olanı bulacağız. Daha sonra elde ettiğimiz modelleme tekniği üzerinde tüm verimizi koşturabiliriz.
+
+ Peki veri setimizin tamamının karakteristiklerini taşıyan ve onu doğru bir şekilde özetleyen **sample size'a** nasıl karar vereceğiz ? 
+ - Buna karar vermek için örneğin 1 milyon içerisinden 50bin'lik birbirinden farklı samplelar aldım. Daha sonra bu sample'ların hepsini aynı modelleme tekniğim üzerinde koşturdum. Sonuçları incelediğimde elde ettiğim modelin performansını gösterek metrik değerlerim birbirinden çok değişken ise bu sayı 1milyon verimi temsil etmek için yetersiz kalıyor diyebilirim.
+
+**?** Sampling teknikleri nelerdir ? Ne gibi farkları var ? 
 
 
 
