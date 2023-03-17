@@ -93,7 +93,7 @@ Missing Value'lara train'de atadığım değer örneğin o train'in ilgili sütu
 
 # Hyperparameters
 Hiperparametreler nelerdir ? 
-Modeli eğitirken veriden çıkardığımız değil, kendi kendimize ayarladığımız parametrelere denir.
+- Modeli eğitirken veriden çıkardığımız değil, kendi kendimize     ayarladığımız parametrelere denir.
 
 # Subsample
 Daha önce de dediğimi gibi en iyi modeli bulmak diye bir şey pek mümkün değil. Fakat optimuma yaklaşmak için farklı model çeşitlerini, farklı hiperparametre değerleriyl deneriz. Fakat bunun gerçek hayatta pek mümkün olmadığı yerler bulunmakta. Örneğin  1milyon veri içeren bir veri setinde bir modeli kurmak 2-3 saatimizi alıyor olabilir. Bunu 10 farklı model kurarak denesek yaklaşık 25 saatimizi alacak. İşte zamandan tasarruf etmek için veri setimizi doğru şekilde ifade edebilen sample alma işlemine **subsample** denir.
@@ -105,7 +105,8 @@ Böylelikle aldığımız subsample'ları bir çok modelleme tekniğiyle deniyip
 
 **?** Sampling teknikleri nelerdir ? Ne gibi farkları var ? 
 
-
+# Random Feature Selection
+Decision Tree'lerimin daha az korele olabilmesi için (çünkü birbirleriyle korele bir şekilde olursalar hatalar toplamı 0'dan uzaklaşır.) karar ağaçlarının bakacağı feature'ları kısıtlayıp random olarak seçtiriyoruz.
 
 
 
